@@ -1,0 +1,75 @@
+.upload{
+    margin-bottom:26px;
+    position:relative;
+    width:130px;
+    height:130px;
+    display:inline-block;
+    margin-right:12px;
+    margin-top:12px;
+    @media screen and (max-width:639px){
+       width:100px;height:100px;
+    }
+}
+.dele{
+    width:24px;
+    height:24px;
+    background:url(faq/pc_icon_delete.png) no-repeat;
+    background-size:contain;
+    position:absolute;
+    right:6px;top:4px;
+}
+.preview{
+    width:130px;height:130px;
+    @media screen and (max-width:639px){
+       width:100px;height:100px;
+    }
+}
+.imghead {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    border:none;
+    @media screen and (max-width:639px){
+       width:100px;height:100px;
+    }
+}
+.upload label{
+    width:130px;
+    height:130px;
+    display:block;
+    position: absolute;
+    top:0;left:0;
+    background:url(faq/pc_choosefile_n.png) no-repeat;
+    background-size:cover;
+    @media screen and (max-width:639px){
+       width:100px;height:100px;
+    }
+}
+.preview canvas{
+    width:130px;
+    margin:0!important;padding:0;
+    @media screen and (max-width:639px){
+       width:100px;height:100px;
+    }
+}
+.upload input{
+    visibility:hidden;
+}
+.faq_yes,.faq_no{
+    position:relative;
+    line-height:28px;
+    padding-left:30px;
+    span{
+        display:inline-block;
+        background:url(faq/pc_icon_upload_successful.png) center center no-repeat;
+        background-size:contain;
+        width:20px;height:28px;
+        position:absolute;
+        left:0;top:0;
+    }
+}
+.faq_no span{
+    background:url(faq/pc_icon_upload_failed.png) center center no-repeat;
+    background-size:contain;
+}
+.display-none{
+    display:none;
+}
